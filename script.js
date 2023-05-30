@@ -15,7 +15,7 @@ function login(event) {
     // Replace this with your own authentication logic
     if (username === "admin" && password === "qwertyuiopasdfghjklzxcvbnm") {
         alert("Login successful!");
-        window.location.href = "dash.html"; // Redirect to dash.html
+        window.location.href = "home.html"; // Redirect to dash.html
     } else {
         alert("Invalid username or password. Please try again.");
     }

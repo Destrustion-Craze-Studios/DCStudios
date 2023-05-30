@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.dashboard-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dashboard-header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.dashboard-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+}
+
+/* Login-specific styles */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container .form-group {
+    margin-bottom: 10px;
+}
+
+.login-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container input[type="submit"] {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Settings-specific styles */
+.settings-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.settings-container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.settings-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-container .form-group {
+    margin-bottom: 10px;
+}
+
+.settings-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.settings-container input[type="text"],
+.settings-container input[type="email"],
+.settings-container input[type="password"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.settings-container input[type="submit"] {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Profile-specific styles */
+.profile-info {
+    margin-top: 20px;
+}
+
+.profile-info p {
+    margin-bottom: 10px;
+}
+
+/* Home-specific Styles */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.home-header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.home-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.home-header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.home-header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+}
+
+/* Shop-specific styles*/
+.shop-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.shop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.shop-header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.shop-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.shop-header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.shop-header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.shop-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover</title>
+  <link href="discover.css" rel="stylesheet" type="text/ css"/>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Discover</h1>
+      <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="settings.html">Settings</a></li>
+          <li><a href="profile.html">Profile</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <div class="search">
+        <input type="text" id="search-input" placeholder="Search...">
+        <button id="search-button">Search</button>
+      </div>
+      
+      <div class="card">
+        <h2>Discover Card</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae mauris eu nunc luctus consequat.
+          Phasellus ac ligula eu risus cursus vestibulum. Sed eu ligula ante.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 team create. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const searchButton = document.getElementById('search-button');
+    const searchInput = document.getElementById('search-input');
+
+    searchButton.addEventListener('click', () => {
+      const searchTerm = searchInput.value;
+      // Perform search logic or redirect to search results page
+      console.log('Search term:', searchTerm);
+    });
+  </script>
+</body>
+
+</html>

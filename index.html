@@ -2,28 +2,39 @@
 <html>
 
 <head>
-    <title>Login</title>
-    <link href="style.css" rel="stylesheet" type="text/ css"/>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
     <link href="favicon.ico" rel="icon" type="image/ x-icon">
-    <script src="script.js"></script>
 </head>
 
 <body>
-    <div class="login-container">
-        <h1>Login</h1>
-        <form id="login-form" onsubmit="login(event)">
-            <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
+    <div class="home-container">
+        <header class="home-header">
+            <h1>Welcome to Home</h1>
+            <nav>
+                <ul>
+                    <li><a href="dash.html">Dashboard</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="mtd.html">Meet The Developers</a></li>
+                    <li><a href="settings.html">Settings</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="login.html">Admin Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="home-content">
+            <div class="card">
+                <h2>Latest News</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id urna sed mi tincidunt
+                    posuere.
+                    Proin tincidunt felis sit amet ligula vehicula, a convallis ligula tincidunt.</p>
+                <p>Etiam non nibh tristique, fermentum ligula non, porta enim. Proin vel leo vel velit
+                    hendrerit
+                    interdum ut id dolor.</p>
             </div>
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Login">
-            </div>
-        </form>
+        </section>
     </div>
 </body>
 
